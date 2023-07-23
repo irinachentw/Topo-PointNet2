@@ -1,0 +1,34 @@
+2023-07-12 14:16:12,200 - Model - INFO - PARAMETER ...
+2023-07-12 14:16:12,201 - Model - INFO - Namespace(model='pointnet2_part_seg_msg', batch_size=4, epoch=5, learning_rate=0.1, gpu='0', optimizer='Adam', log_dir=None, decay_rate=0.0001, npoint=2048, normal=False, step_size=20, lr_decay=0.5)
+2023-07-12 14:16:12,231 - Model - INFO - The number of training data is: 45
+2023-07-12 14:16:12,231 - Model - INFO - The number of test data is: 8
+2023-07-12 14:16:12,341 - Model - INFO - No existing model, starting training from scratch...
+2023-07-12 14:16:13,194 - Model - INFO - Epoch 1 (1/5):
+2023-07-12 14:16:13,195 - Model - INFO - Learning rate:0.100000
+2023-07-12 14:16:37,530 - Model - INFO - Train accuracy is: 0.03742
+2023-07-12 14:24:03,608 - Model - INFO - eval mIoU of Airplane       nan
+2023-07-12 14:24:03,608 - Model - INFO - eval mIoU of Bag            0.072266
+2023-07-12 14:24:03,608 - Model - INFO - eval mIoU of Cap            nan
+2023-07-12 14:24:03,609 - Model - INFO - eval mIoU of Car            nan
+2023-07-12 14:24:03,609 - Model - INFO - eval mIoU of Chair          nan
+2023-07-12 14:24:03,609 - Model - INFO - eval mIoU of Earphone       0.620768
+2023-07-12 14:24:03,610 - Model - INFO - eval mIoU of Guitar         0.203125
+2023-07-12 14:24:03,610 - Model - INFO - eval mIoU of Knife          nan
+2023-07-12 14:24:03,610 - Model - INFO - eval mIoU of Lamp           nan
+2023-07-12 14:24:03,610 - Model - INFO - eval mIoU of Laptop         0.275879
+2023-07-12 14:24:03,610 - Model - INFO - eval mIoU of Motorbike      nan
+2023-07-12 14:24:03,611 - Model - INFO - eval mIoU of Mug            0.045410
+2023-07-12 14:24:03,611 - Model - INFO - eval mIoU of Pistol         nan
+2023-07-12 14:24:03,611 - Model - INFO - eval mIoU of Rocket         0.018229
+2023-07-12 14:24:03,611 - Model - INFO - eval mIoU of Skateboard     nan
+2023-07-12 14:24:03,612 - Model - INFO - eval mIoU of Table          0.556478
+2023-07-12 14:24:03,612 - Model - INFO - Epoch 1 test Accuracy: 0.390930  Class avg mIOU: nan   Inctance avg mIOU: 0.233053
+2023-07-12 14:24:03,612 - Model - INFO - Save model...
+2023-07-12 14:24:03,612 - Model - INFO - Saving at log\part_seg\2023-07-12_14-16\checkpoints/best_model.pth
+2023-07-12 14:24:05,587 - Model - INFO - Saving model....
+2023-07-12 14:24:05,588 - Model - INFO - Best accuracy is: 0.39093
+2023-07-12 14:24:05,589 - Model - INFO - Best class avg mIOU is: 0.00000
+2023-07-12 14:24:05,589 - Model - INFO - Best inctance avg mIOU is: 0.23305
+2023-07-12 14:24:05,589 - Model - INFO - Epoch 2 (2/5):
+2023-07-12 14:24:05,590 - Model - INFO - Learning rate:0.100000
+2023-07-12 14:24:17,518 - Model - INFO - Train accuracy is: 0.06225
